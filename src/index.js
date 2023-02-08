@@ -38,7 +38,6 @@ document.addEventListener("DOMContentLoaded", () => {
 // The toy card will have the above HTML structure.
 function renderToyCard(toy) {
   const card = document.createElement("div");
-  card.id = 
   card.classList.add("card");
   const toyName = document.createElement("h2");
   toyName.textContent = toy.name;
